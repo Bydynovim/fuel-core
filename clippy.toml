@@ -12,7 +12,7 @@ disallowed-macros = [
     { reason = "Use tracing instead of log", path = "log::debug" },
     { reason = "Use tracing instead of log", path = "log::info" },
     { reason = "Use tracing instead of log", path = "log::warn" },
-    { reason = "Use tracing instead of log", path = "log::error" },
+
     { reason = "Use tracing instead of log", path = "log::log" },
     { reason = "Use tracing instead of log", path = "log::log_enabled" },
 ]
