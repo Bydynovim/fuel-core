@@ -45,7 +45,7 @@ pacman -Syu --needed --noconfirm cmake gcc pkgconf git clang protobuf-compiler
 We recommend using `xtask` to build fuel-core:
 
 ```sh
-cargo xtask build
+@
 ```
 
 This will run `cargo build` as well as any other custom build processes we have such as re-generating a GraphQL schema for the client.
